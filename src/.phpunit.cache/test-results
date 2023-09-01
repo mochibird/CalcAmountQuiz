@@ -1,0 +1,1 @@
+{"version":1,"defects":{"SuperMarketTest::testCalc":7,"SuperMarketTest::testApplySetDiscount":7,"ShopTest::testBill":7},"times":{"MathTest::testDouble":0.017,"SuperMarketTest::testCalc":0,"SuperMarketTest::testApplyOnionDiscount":0,"SuperMarketTest::testApplySetDiscount":0,"ShopTest::testBill":0}}

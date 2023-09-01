@@ -1,0 +1,17 @@
+{
+    "name": "root/html",
+    "require": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpmd/phpmd": "@stable"
+    },
+    "scripts":{
+        "phpcs": "./vendor/bin/phpcs --standard=phpcs.xml",
+        "phpmd": "./vendor/bin/phpmd . text phpmd.xml --suffixes php --exclude vendor",
+        "phpstan": "./vendor/bin/phpstan analyse -c phpstan.neon",
+        "phpunit": "./vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.3"
+    }
+}
